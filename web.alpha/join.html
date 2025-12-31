@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us | Tennis Flex Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">TENNIS<span>FLEX</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="coaches.html">Coaches</a></li>
+            <li><a href="join.html" class="btn-primary">Join Now</a></li>
+        </ul>
+    </nav>
+
+    <section class="join-container">
+    <div class="form-box">
+        <h2>Get Started <span class="highlight">Today</span></h2>
+        
+        <form action="https://formspree.io/f/YOUR_UNIQUE_ID" method="POST">
+            
+            <label>Full Name</label>
+            <input type="text" name="name" placeholder="Full Name" required>
+            
+            <label>Email Address</label>
+            <input type="email" name="_replyto" placeholder="Email Address" required>
+            
+            <label>Program</label>
+            <select name="program">
+                <option value="junior">Elite Junior</option>
+                <option value="adult">Adult Clinic</option>
+                <option value="private">1-on-1 Flex</option>
+            </select>
+            
+            <label>Message</label>
+            <textarea name="message" placeholder="Tell us about your skill level..."></textarea>
+            
+            <input type="hidden" name="_subject" value="New Tennis Flex Academy Application!">
+
+            <button type="submit" class="btn-main">Submit Application</button>
+        </form>
+    </div>
+</section>
+    <section class="membership-table container">
+    <h2 class="section-title">Choose Your <span class="highlight">Level</span></h2>
+    <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Features</th>
+                    <th>Basic</th>
+                    <th class="active">Flex Pro</th>
+                    <th>Elite</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Weekly Group Sessions</td>
+                    <td>1 Session</td>
+                    <td class="active">3 Sessions</td>
+                    <td>Unlimited</td>
+                </tr>
+                <tr>
+                    <td>Private Coaching</td>
+                    <td><i class="fas fa-times"></i></td>
+                    <td class="active">1 Hour/Mo</td>
+                    <td>4 Hours/Mo</td>
+                </tr>
+                <tr>
+                    <td>Court Booking</td>
+                    <td>Standard</td>
+                    <td class="active">Priority</td>
+                    <td>VIP/Instant</td>
+                </tr>
+                <tr>
+                    <td>Video Analysis</td>
+                    <td><i class="fas fa-times"></i></td>
+                    <td class="active"><i class="fas fa-check"></i></td>
+                    <td><i class="fas fa-check"></i></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <section class="schedule container">
+    <h2 class="section-title">Live Court <span class="highlight">Status</span></h2>
+    <div class="court-grid">
+        <div class="court-status">
+            <span>Court 1 (Clay)</span>
+            <span class="status-tag occupied">In Use</span>
+        </div>
+        <div class="court-status">
+            <span>Court 2 (Hard)</span>
+            <span class="status-tag available">Available</span>
+        </div>
+        <div class="court-status">
+            <span>Court 3 (Grass)</span>
+            <span class="status-tag available">Available</span>
+        </div>
+    </div>
+</section>
+</section>
+</body>
+</html>

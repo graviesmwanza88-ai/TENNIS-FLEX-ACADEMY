@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Hub | Tennis Flex Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">TENNIS<span>FLEX</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="coaches.html">Coaches</a></li>
+            <li><a href="join.html" class="btn-primary">Join Now</a></li>
+        </ul>
+    </nav>
+
+    <section class="video-hero">
+        <div class="video-overlay">
+            <span class="badge">New Release</span>
+            <h1>The Perfect <span class="highlight">Backhand</span></h1>
+            <p>Master the one-handed backhand with this deep-dive tutorial by Coach Alex.</p>
+            <button class="play-btn-large"><i class="fas fa-play"></i> Watch Trailer</button>
+        </div>
+    </section>
+
+    <section class="container video-section">
+        <div class="filter-bar">
+            <button class="filter-btn active">All</button>
+            <button class="filter-btn">Tutorials</button>
+            <button class="filter-btn">Match Play</button>
+            <button class="filter-btn">Drills</button>
+        </div>
+
+        <h2 class="section-title-small">Training Tutorials</h2>
+        <div class="video-grid">
+            <div class="video-item">
+                <div class="thumb-wrap">
+                    <img src="https://images.unsplash.com/photo-1595435064219-510ccbdb4973?auto=format&fit=crop&q=80&w=500" alt="Serve">
+                    <span class="duration">08:24</span>
+                    <div class="play-hover"><i class="fas fa-play"></i></div>
+                </div>
+                <h3>Serve Power Mechanics</h3>
+                <p>Learn how to use your legs to generate explosive serve speed.</p>
+            </div>
+            <div class="video-item">
+                <div class="thumb-wrap">
+                    <img src="https://images.unsplash.com/photo-1622279457486-62dcc4a4bd93?auto=format&fit=crop&q=80&w=500" alt="Footwork">
+                    <span class="duration">12:15</span>
+                    <div class="play-hover"><i class="fas fa-play"></i></div>
+                </div>
+                <h3>Defensive Footwork</h3>
+                <p>The "Spider Drill" and other methods for elite court coverage.</p>
+            </div>
+            <div class="video-item">
+                <div class="thumb-wrap">
+                    <img src="https://images.unsplash.com/photo-1560012057-4372e14c5085?auto=format&fit=crop&q=80&w=500" alt="Junior Match">
+                    <span class="duration">05:40</span>
+                    <div class="play-hover"><i class="fas fa-play"></i></div>
+                </div>
+                <h3>Junior Academy Highlights</h3>
+                <p>A look at last month's intra-academy tournament finals.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tennis Flex Academy. All Rights Reserved.</p>
+    </footer>
+    <div class="video-modal" id="videoModal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div class="video-container">
+            <iframe id="videoPlayer" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+</body>
+</html>
